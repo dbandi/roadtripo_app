@@ -1,0 +1,23 @@
+<ion-view view-title="Places" class="bg-search">
+  <ion-content>
+      <ion-list>
+        <ion-item ng-repeat="place in tripRoute track by $index" class="ion-card">
+            <div class="list card">
+                <div class="item item-avatar">
+                    <h2>{{place.placename}}</h2>
+                    <p>{{place.placetype}}</p>
+                </div>
+
+                <div class="item item-image">
+                    <img src="{{place.photo}}">
+                </div>
+
+                <a class="item item-icon-left assertive" href="#/app/map/{{place.address}}">
+                    <i class="icon ion-ios-location-outline"></i>
+                    {{place.distance}} Miles from {{place.city}}
+                </a>
+            </div>
+        </ion-item>
+      </ion-list>
+  </ion-content>
+</ion-view>

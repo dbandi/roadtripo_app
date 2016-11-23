@@ -1,0 +1,13 @@
+<ion-content ng-controller="MapController">
+    <div>
+      <ng-map zoom="14" center="37.7699298, -122.4469157" style="width: 100%; height: 100vh;">
+        <directions
+          draggable="true"
+          travel-mode="DRIVING"
+          origin="current-location"
+          destination="{{destination}}">
+        </directions>
+      </ng-map>
+      <br/>
+    </div>
+</ion-content>

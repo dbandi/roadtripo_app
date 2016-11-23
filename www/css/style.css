@@ -1,0 +1,95 @@
+/* Empty. Add your own CSS if you like */
+.overflow-scroll::-webkit-scrollbar { width: 0 !important }
+
+.ion-card{
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+}
+
+.ion-card:before{
+    display: none;
+    border: none;
+}
+
+.list:last-child.card{
+    margin-bottom: 5px;
+}
+
+.item-avatar{
+    padding-left: 16px;
+}
+
+/*.scroll{
+    background-color: #f0f0f0;
+}*/
+
+.bg-search{
+    background-image: url('../img/bg-explore.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bar-app{
+    background-color: transparent;
+    border: none;
+    margin: 20px 0px;
+    background: none;
+}
+
+.listTrips{
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    margin: 5px 8px;
+}
+
+.listTrips .item{
+    border: none;
+    padding: 0;
+    padding-top: 150px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.listTrips .item h2{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.22);
+    color: #fff;
+    padding: 10px;
+    font-weight: 500;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.listTrips .item p{
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 78px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-weight: 500;
+    color: #fff;
+}
+
+.scroll {
+    height: 100%;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}

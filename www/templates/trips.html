@@ -1,0 +1,14 @@
+<ion-view view-title="Trips" class="bg-search">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="trip in listTrips" class="listTrips" style="background-image: url({{trip.trip_image}})">
+          <div class="list">
+             <a class="item item-thumbnail-left" href="#/app/trips/{{trip.trip_id}}">
+                <h2>{{trip.trip_name}}</h2>
+                <p>{{trip.trip_details_length}} Places</p>
+             </a>
+        </div>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
